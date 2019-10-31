@@ -14,7 +14,7 @@ It supports the use of registers/variables and [lazy evaluation](https://en.wiki
 ## Compile and execute
 
 To compile using Mac(Using Windows or Linux should also work) use the following:
-> javax Calculator.java
+> javac Calculator.java
 
 To execute the program use the following in Mac(Should work for Windows and Linux):
 > java Calculator
