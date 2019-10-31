@@ -3,13 +3,16 @@ This is a calculator that can use the operators add, subtract and multiply.
 It supports the use of registers/variables and [lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation).
 
 ## Commands
-> "<register> <operator> <register>"
-> "print <register> : Will evaluate the chosen register/variable."
-> "quit : Quits/Aborts the program."
+> **(register) (operator) (register)**
+>
+> **print (register)** : Will evaluate the chosen register/variable.
+>
+> **quit** : Quits/Aborts the program.
 
 ### Definitions
-> "<register> : Can be anything that is alphanumerical. In order to not complicate things it's not possible to assign values to integers. ex 123 adds 5."
-> "<operator> : Can be add, subtract or multiply. Everything else will be ignored."
+> **(register)** : Can be anything that is alphanumerical. In order to not complicate things it's not possible to assign values to integers. ex 123 adds 5.
+>
+> **(operator)** : Can be add, subtract or multiply. Everything else will be ignored.
 
 ## Compile and execute
 
@@ -18,9 +21,13 @@ To compile using Mac(Using Windows or Linux should also work) use the following:
 
 To execute the program use the following in Mac(Should work for Windows and Linux):
 > java Calculator
-> or
+>
+or
+>
 > java Calculator file.ext
-> or
+>
+or
+>
 > java Calculator < file.ext
 
 The calculator does only take one argument which is a file. Otherwise it will take input from standard input stream.
